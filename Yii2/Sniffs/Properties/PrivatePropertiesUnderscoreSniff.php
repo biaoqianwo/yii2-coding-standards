@@ -27,10 +27,13 @@ class PrivatePropertiesUnderscoreSniff implements Sniff
             $tokens[$pointer + 1]['type'] === 'T_WHITESPACE' &&
             $tokens[$pointer + 2]['type'] === 'T_VARIABLE' &&
             strpos($tokens[$pointer + 2]['content'], '$_') !== 0) {
-
             $data = [$tokens[$pointer + 2]['content']];
-            $file->addError('Private property name "%s" must be prefixed with underscore.', $pointer, 'NoUnderscore',
-                $data);
+            $file->addError(
+                'Private property name "%s" must be prefixed with underscore.',
+                $pointer,
+                'NoUnderscore',
+                $data
+            );
         }
     }
 }

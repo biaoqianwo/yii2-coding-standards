@@ -1,5 +1,5 @@
 {
-	"name": "yiisoft/yii2-coding-standards",
+	"name": "biaoqianwo/yii2-coding-standards",
 	"description": "Yii PHP Framework Version 2 - Coding standard tools",
 	"keywords": ["yii", "framework", "codesniffer"],
 	"homepage": "http://www.yiiframework.com/",
@@ -39,8 +39,14 @@
 			"name": "Paul Klimov",
 			"email": "klimov.paul@gmail.com",
 			"role": "Core framework development"
+		},
+		{
+			"name": "Allen Li",
+			"email": "704872038@qq.com",
+			"role": "development"
 		}
 	],
+	"minimum-stability": "dev",
 	"support": {
 		"issues": "https://github.com/yiisoft/yii2/issues?state=open",
 		"forum": "http://www.yiiframework.com/forum/",
